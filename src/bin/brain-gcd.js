@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import launch from '../lib/brain-gcd';
+import launch from '../games/brain-gcd';
 
 launch();

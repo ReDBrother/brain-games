@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import launch from '../lib/brain-games';
+import launch from '../games/brain-games';
 
 launch();

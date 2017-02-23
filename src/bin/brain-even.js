@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import launch from '../lib/brain-even';
+import launch from '../games/brain-even';
 
 launch();

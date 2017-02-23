@@ -1,4 +1,3 @@
-import readlineSync from 'readline-sync';
 import { cons, car, cdr } from 'hexlet-pairs';
 import brainGames from '..';
 
@@ -16,11 +15,9 @@ const gcd = (pair) => {
   return gcd(cons(cdr(pair), car(pair) % cdr(pair)));
 };
 const game = () => {
-  const pair = createPair();
-  const expectedAnswer = gcd(pair);
-  console.log(`Question: ${car(pair)} ${cdr(pair)}`);
-  const currentAnswer = readlineSync.questionInt('Your answer: ');
-  return { expectedAnswer, currentAnswer };
+  const items = createPair();
+  const expected = gcd(items);
+  return { expected, items };
 };
 
 export default () => {
