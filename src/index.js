@@ -10,8 +10,8 @@ export default (leading, game) => {
   if (game !== undefined) {
     const iter = (acc) => {
       if (acc === 0) {
-         console.log(`Congratulations, ${name}!`);
-         return;
+        console.log(`Congratulations, ${name}!`);
+        return;
       }
 
       const { expectedAnswer, currentAnswer } = game();
