@@ -1,6 +1,6 @@
 {
   "name": "hexlet-brain-games",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",

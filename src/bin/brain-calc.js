@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 import { cons, car, cdr } from 'hexlet-pairs';
 import brainGames from '..';
