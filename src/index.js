@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { car, cdr , isPair } from 'hexlet-pairs';
+import { car, cdr, isPair } from 'hexlet-pairs';
 
 const toString = (pair) => {
   if (isPair(pair)) {
