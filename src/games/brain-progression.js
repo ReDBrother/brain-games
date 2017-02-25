@@ -1,7 +1,7 @@
 import { cons } from 'hexlet-pairs';
 import brainGames from '..';
 
-const brief = 'What number is missing in this progression?\n';
+const brief = 'What number is missing in this progression?';
 const createProgression = (index, begin, diff) => {
   const iter = (acc) => {
     const item = (acc === index) ? '..' : begin + (acc * diff);

@@ -1,6 +1,6 @@
 import brainGames from '..';
 
-const brief = 'Balance the given number.\n';
+const brief = 'Balance the given number.';
 const createNum = (acc, length) => {
   if (length === 0) {
     return acc;
@@ -9,9 +9,9 @@ const createNum = (acc, length) => {
   const item = Math.floor(Math.random() * 10);
   return createNum([item, ...acc], length - 1);
 };
-const isBalance = arr => Math.max(...arr) - Math.min(...arr) < 2;
+const isBalanced = arr => Math.max(...arr) - Math.min(...arr) < 2;
 const getBalance = (num) => {
-  if (isBalance(num)) {
+  if (isBalanced(num)) {
     return num;
   }
 

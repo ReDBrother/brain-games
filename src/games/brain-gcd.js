@@ -1,7 +1,7 @@
 import { cons, car, cdr } from 'hexlet-pairs';
 import brainGames from '..';
 
-const brief = 'Find the greatest common of given numbers.\n';
+const brief = 'Find the greatest common of given numbers.';
 const createPair = () => {
   const a = Math.floor((Math.random() * 100) + 1);
   const b = Math.floor((Math.random() * 100) + 1);

@@ -1,7 +1,7 @@
 import { cons, car, cdr } from 'hexlet-pairs';
 import brainGames from '..';
 
-const brief = 'What is the result of the expression?\n';
+const brief = 'What is the result of the expression?';
 const ops = ['+', '-', '*'];
 const createExpression = () => {
   const a = Math.floor(Math.random() * 50);

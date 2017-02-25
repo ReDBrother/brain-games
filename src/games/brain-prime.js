@@ -1,6 +1,6 @@
 import brainGames from '..';
 
-const brief = 'Answer "yes" if number prime otherwise answer "no".\n';
+const brief = 'Answer "yes" if number prime otherwise answer "no".';
 const isPrime = (num) => {
   const iter = (acc) => {
     if (Math.sqrt(num) < acc) {

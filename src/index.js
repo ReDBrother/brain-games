@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
 import { car, cdr, isPair } from 'hexlet-pairs';
 
+const countOfQuestion = 3;
 const toString = (pair) => {
   if (isPair(pair)) {
     const left = toString(car(pair));
@@ -14,7 +15,7 @@ const toString = (pair) => {
 export default (leading, game) => {
   console.log('Welcome to the Brain Games!');
   if (leading !== undefined) {
-    console.log(leading);
+    console.log(`${leading}\n`);
   }
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!\n`);
@@ -37,6 +38,6 @@ export default (leading, game) => {
       }
     };
 
-    iter(3);
+    iter(countOfQuestion);
   }
 };

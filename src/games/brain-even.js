@@ -1,6 +1,6 @@
 import brainGames from '..';
 
-const brief = 'Answer "yes" if number odd otherwise answer "no".\n';
+const brief = 'Answer "yes" if number odd otherwise answer "no".';
 const isOdd = predicate => (predicate ? 'yes' : 'no');
 const game = () => {
   const num = Math.floor(Math.random() * 100);
