@@ -2,10 +2,11 @@ import { cons } from 'hexlet-pairs';
 import brainGames from '..';
 
 const brief = 'What number is missing in this progression?';
+const lengthOfProgression = 10;
 const createProgression = (index, begin, diff) => {
   const iter = (acc) => {
     const item = (acc === index) ? '..' : begin + (acc * diff);
-    if (acc === 9) {
+    if (acc === lengthOfProgression - 1) {
       return item;
     }
 
