@@ -7,16 +7,16 @@ const createPair = () => {
   const b = Math.floor((Math.random() * 100) + 1);
   return cons(a, b);
 };
-const gcd = (pair) => {
-  if (cdr(pair) === 0) {
-    return car(pair);
+const gcd = (x, y) => {
+  if (y === 0) {
+    return x;
   }
 
-  return gcd(cons(cdr(pair), car(pair) % cdr(pair)));
+  return gcd(y, x % y);
 };
 const game = () => {
   const items = createPair();
-  const expected = gcd(items);
+  const expected = gcd(car(pair), cdr(pair));
   return { expected, items };
 };
 
