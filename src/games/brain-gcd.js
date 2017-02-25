@@ -16,7 +16,7 @@ const gcd = (x, y) => {
 };
 const game = () => {
   const items = createPair();
-  const expected = gcd(car(pair), cdr(pair));
+  const expected = gcd(car(items), cdr(items));
   return { expected, items };
 };
 
