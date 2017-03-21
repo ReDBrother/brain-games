@@ -1,2 +1,2 @@
-# Utility gendiff
-[![Code Climate](https://lima.codeclimate.com/github/ReDBrother/project-lvl2-s70/badges/gpa.svg)](https://lima.codeclimate.com/github/ReDBrother/project-lvl2-s70) [![Build Status](https://travis-ci.org/ReDBrother/project-lvl2-s70.svg?branch=master)](https://travis-ci.org/ReDBrother/project-lvl2-s70)
+# Brain Games
+[![Code Climate](https://lima.codeclimate.com/github/ReDBrother/project-lvl1-s69/badges/gpa.svg)](https://lima.codeclimate.com/github/ReDBrother/project-lvl1-s69) [![Build Status](https://travis-ci.org/ReDBrother/project-lvl1-s69.svg?branch=master)](https://travis-ci.org/ReDBrother/project-lvl1-s69)
